@@ -32,9 +32,11 @@
       "position": "Gerente de Projetos",
       "document_type": "cpf",
       "document_number": "12345678900",
-      "birth_date": "15/06/1985",
+      "birth_date_text": "15/06/1985",
       "category_id": "cat123",
       "badge_name": "João Silva",
+      "term": "Aceito os termos de privacidade e uso desta plataforma",
+      "term_2": "Aceito receber comunicados da Fundmed e suas apoiadas",
       "createdAt": "2025-06-15T10:00:00Z",
       "updatedAt": "2025-06-15T18:00:00Z"
     }
@@ -62,8 +64,10 @@
 | `position`          | string     | Cargo ou função |
 | `document_type`     | string     | Tipo de documento (exemplo: `"cpf"`, `"cnpj"`) |
 | `document_number`   | string     | Número do documento |
-| `birth_date`        | string (formato `DD/MM/YYYY`) | Data de nascimento |
+| `birth_date_text`   | string (formato `DD/MM/YYYY`) | Data de nascimento |
 | `category_id`       | string     | ID da categoria associada ao participante |
+| `term`              | string     | Termo de aceite |
+| `term_2`            | string     | Aceite de comunicações |
 | `createdAt`         | string (ISO 8601 DateTime) | Data e hora de criação do cadastro |
 | `updatedAt`         | string (ISO 8601 DateTime) | Data e hora da última atualização do cadastro |
 
