@@ -58,7 +58,9 @@
       "total_expense": 0,
       "saldo": 14000,
       "product": "Ingresso VIP",
-      "client_id": "João da Silva",
+      "client_id": "00c6564e-6faa-4235-bce6-10c4304bb2fe"
+      "client_name": "João da Silva",
+      "client_document": "36814232022",
       "sale_hash": "abc123xyz",
       "installment_value": 15000,
       "transaction_id": "trans789",
@@ -95,8 +97,10 @@
 | `total_recipe`       | integer     | Entrada líquida (em centavos) |
 | `total_expense`      | integer     | Saída líquida (em centavos) |
 | `saldo`              | integer     | Saldo final (em centavos) |
-| `client_id`             | string      | Chave de identificação do cliente |
-| `sale_hash`               | string      | Chave de identificação da venda |
+| `client_id`          | string      | Chave de identificação do cliente |
+| `client_name`        | string      | Nome do comprador |
+| `client_document`    | string      | Documento do comprador |
+| `sale_hash`          | string      | Chave de identificação da venda |
 | `installment_value`  | integer     | Valor de cada parcela (em centavos) |
 | `transaction_id`     | string      | ID da transação |
 | `operation`          | string      | Tipo da operação (ex.: Crédito, Saque, Estorno) |
